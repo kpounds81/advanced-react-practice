@@ -1,0 +1,18 @@
+{
+  "name": "advanced-react-practice",
+  "version": "1.0.0",
+  "description": "Advanced React",
+  "main": "lib/server.js",
+  "repository": "/kpounds81/advanced-react-practice",
+  "author": "Keith Pounds",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
