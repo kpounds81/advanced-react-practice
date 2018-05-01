@@ -7,8 +7,7 @@
   "author": "Keith Pounds",
   "license": "MIT",
   "scripts": {
-    "start:dev": "pm2 start lib/server.js --watch --interpreter babel-node",
-    "stop:dev": "pm2 stop lib/server.js",
+    "start:dev": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node",
     "webpack": "webpack -wd",
     "test": "jest --watch"
   },
